@@ -8,8 +8,8 @@ import Form from "../components/Form";
 const Comments = () => {
   return (
     <section className="w-full bg-dark-blue-main">
-      <div className="max-w-[1240px] mx-auto px-8 ">
-        <div className="grid grid-cols-1 md:grid-cols-3 py-32 gap-8">
+      <div className="max-w-[1240px] mx-auto px-4 relative">
+        <div className="grid grid-cols-1 md:grid-cols-3 pt-28 pb-72 gap-8">
           <div className="px-10 py-6 bg-dark-blue-main2 rounded shadow-xl text-white relative ">
             <div className="z-10 ">
               <div className="absolute top-[-15%] left-0 z-0">
@@ -82,7 +82,7 @@ const Comments = () => {
             </div>
           </div>
         </div>
-        <div className="px-0 md:px-28 lg:px-32">
+        <div className="flex items-center justify-center absolute inset-x-0 bottom-[-20%] px-4">
           <Form />
         </div>
       </div>

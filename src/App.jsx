@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import AcessFiles from "./components/AcessFiles";
 import Productive from "./components/Productive";
 import Comments from "./components/Comments";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <AcessFiles />
       <Productive />
       <Comments />
+      <Footer />
     </div>
   );
 };
