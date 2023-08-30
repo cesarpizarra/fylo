@@ -3,11 +3,12 @@ import Profile1 from "../assets/profile-1.jpg";
 import Profile2 from "../assets/profile-2.jpg";
 import Profile3 from "../assets/profile-3.jpg";
 import Quote from "../assets/bg-quotes.png";
+import Form from "../components/Form";
 
 const Comments = () => {
   return (
     <section className="w-full bg-dark-blue-main">
-      <div className="max-w-[1240px] mx-auto px-8">
+      <div className="max-w-[1240px] mx-auto px-8 ">
         <div className="grid grid-cols-1 md:grid-cols-3 py-32 gap-8">
           <div className="px-10 py-6 bg-dark-blue-main2 rounded shadow-xl text-white relative ">
             <div className="z-10 ">
@@ -80,6 +81,9 @@ const Comments = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="px-0 md:px-28 lg:px-32">
+          <Form />
         </div>
       </div>
     </section>
